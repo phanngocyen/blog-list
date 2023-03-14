@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 75px;
+    z-index: 10;
+
+}
+.header .header__logo {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.header .header__tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header__tools .phone-munber {
+    display: block;
+    margin-right: 16px;
+}
+
+.header .header__tools .reservation {
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-banner {
+    background-image: url(./../images/img_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+
+.hero-banner .hero-banner__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+}
+
+.hero-banner .hero-banner__content .title .h1{
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 208px;
+    line-height: 120px;
+}
+
+
+
